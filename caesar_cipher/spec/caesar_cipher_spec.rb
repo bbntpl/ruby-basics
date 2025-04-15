@@ -1,7 +1,7 @@
-# caesar_cipher_spec.rb
+# frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../caesar_cipher.rb'
+require_relative '../caesar_cipher'
 
 RSpec.describe '#caesar_cipher' do
   it 'shifts letters by a given positive number' do
